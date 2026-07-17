@@ -1,0 +1,28 @@
+{
+  "targetFrameCm": 60,
+  "acceptedSizes": ["60", "59", "61", "L", "XL"],
+  "maxPriceEur": 2500,
+  "models": [
+    "Stevens Vapor 2x12",
+    "Rose Backroad AL",
+    "Canyon Grail AL",
+    "Ridley Kanzo A",
+    "Trek Checkpoint ALR 5",
+    "BMC URS AL",
+    "Orbea Terra H30",
+    "Scott Speedster Gravel",
+    "Focus Atlas"
+  ],
+  "sources": [
+    {"id":"buycycle","name":"Buycycle","url":"https://buycycle.com","enabled":true,"type":"used"},
+    {"id":"bikeexchange","name":"BikeExchange","url":"https://www.bikeexchange.de","enabled":true,"type":"dealer"},
+    {"id":"bikeflip","name":"BikeFlip","url":"https://www.bikeflip.com","enabled":true,"type":"used"},
+    {"id":"rebike","name":"Rebike","url":"https://rebike.com/de","enabled":true,"type":"used-dealer"},
+    {"id":"bike2future","name":"Bike2Future","url":"https://bike2future.de","enabled":true,"type":"previous-year"},
+    {"id":"stevens","name":"Stevens Händler","url":"https://www.stevensbikes.de","enabled":true,"type":"dealer"},
+    {"id":"rose","name":"ROSE Bikes","url":"https://www.rosebikes.de","enabled":true,"type":"manufacturer"},
+    {"id":"canyon","name":"Canyon","url":"https://www.canyon.com/de-de/","enabled":true,"type":"manufacturer"},
+    {"id":"trek","name":"Trek Händler","url":"https://www.trekbikes.com/de/de_DE/","enabled":true,"type":"dealer"},
+    {"id":"ridley","name":"Ridley Händler","url":"https://www.ridley-bikes.com","enabled":true,"type":"dealer"}
+  ]
+}
