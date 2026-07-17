@@ -1,0 +1,14 @@
+{
+  "name": "fahrrad-deal-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scan": "node src/scan.js",
+    "serve": "npx serve public"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "playwright": "^1.52.0"
+  }
+}
