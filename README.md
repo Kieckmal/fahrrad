@@ -1,23 +1,26 @@
-# Fahrrad Deal Tracker
+# GravelRadar Live
 
-Dashboard und automatischer Scanner für Gravel-/Cyclocross-Angebote in Rahmengröße **60 cm** bzw. passenden Herstellergrößen.
+Alle Dateien liegen direkt im Hauptverzeichnis. Keine Unterordner.
 
-## Enthaltene Quellen
-Buycycle, BikeExchange, BikeFlip, **Rebike**, **Bike2Future**, Stevens-Händler, ROSE, Canyon, Trek- und Ridley-Händler. Kleinanzeigen ist bewusst ausgeschlossen.
+## Auf GitHub hochladen
 
-## Modelle
-Stevens Vapor 2x12, Rose Backroad AL, Canyon Grail AL, Ridley Kanzo A, Trek Checkpoint ALR 5 sowie BMC URS AL, Orbea Terra H30, Scott Speedster Gravel und Focus Atlas.
+Diese Dateien direkt in den Branch `main` laden:
 
-## Start
-```bash
-npm install
-npx playwright install chromium
-npm run scan
-npm run serve
-```
+- index.html
+- server.js
+- package.json
+- Dockerfile
+- render.yaml
+- .gitignore
+- README.md
 
-## GitHub Pages
-In den Repository-Einstellungen unter **Pages** als Quelle `main /public` wählen. Alternativ kann das Verzeichnis `public` über einen separaten Deployment-Workflow veröffentlicht werden.
+## Auf Render starten
 
-## Hinweise zu Scannern
-Händlerseiten ändern regelmäßig HTML-Struktur, Suchparameter und Bot-Schutz. Die derzeitige generische Erkennung ist eine belastbare Grundstruktur, aber einzelne Quellen benötigen nach dem ersten Testlauf möglicherweise spezifische Adapter. Nutzungsbedingungen und robots.txt der jeweiligen Plattform sind zu beachten.
+1. Render öffnen.
+2. New → Blueprint.
+3. Repository `Kieckmal/fahrrad` auswählen.
+4. Render erkennt `render.yaml` automatisch.
+5. Deployment starten.
+6. Danach die Render-Adresse öffnen.
+
+GitHub Pages allein kann den Playwright-Scanner nicht ausführen. Die eigentliche App läuft daher auf Render.

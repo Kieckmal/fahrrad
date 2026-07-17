@@ -1,14 +1,9 @@
 {
-  "name": "fahrrad-deal-tracker",
-  "version": "0.1.0",
+  "name": "gravelradar-live",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "scan": "node src/scan.js",
-    "serve": "npx serve public"
-  },
-  "dependencies": {
-    "cheerio": "^1.0.0",
-    "playwright": "^1.52.0"
-  }
+  "scripts": {"start": "node server.js"},
+  "dependencies": {"express": "4.21.2", "playwright": "1.52.0"},
+  "engines": {"node": ">=20"}
 }
